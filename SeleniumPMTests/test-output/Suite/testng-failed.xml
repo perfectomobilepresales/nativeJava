@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="test.java.PMSeleniumTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- test.java.PMSeleniumTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
